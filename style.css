@@ -1,0 +1,74 @@
+header, footer {
+	background-color: #171b25 !important;
+    border-bottom: 1px solid rgb(59, 67, 91) !important;
+    color: white ! important;
+}
+
+.search-form-container {
+    background: rgb(46, 52, 67) !important;
+    color: white !important;
+    border: transparent;
+}
+
+a.wgl-site-title span.link-text,
+p.description,
+#main p,
+#main .display-url,
+#q,
+header buttom,
+header .blog-menu-button,
+footer .link-text,
+footer p,
+div.description {
+    color: #ffffffc2 !important;
+}
+
+a.wgl-display-url span.link-text,
+.header-nav-item-text {
+    color: rgb(158, 165, 189);
+}
+
+.nav-app-promo {
+    visibility: hidden !important;
+}
+
+a .anonymous-view-link,
+.anonymous-view-link-text,
+h2.wgl-title,
+h3,
+a:has(h3):hover,
+#main h2,
+footer p span,
+a.result-title.result-link:hover
+{
+    color: rgb(167, 177, 252) !important;
+}
+
+footer a div:hover {
+    background: transparent !important;
+}
+
+div.categories > div:has(button[data-testid^="Images"]),
+div.categories > div:has(button[data-testid^="Shopping"]),
+div.categories > div:has(div.maps),
+div.filters,
+div.bg-disclaimer-container,
+.favicon-container,
+.feedback-button-container {
+	display: none;
+}
+
+.pagination button {
+    background: rgb(37, 43, 59);
+    color: white ;
+    border: transparent;
+}
+
+.pagination form[aria-label^="current page"] button,
+.pagination form[aria-label^="go to page"] button:hover {
+    background: rgb(59, 67, 91);
+}
+
+.w-gl-attribution {
+    margin-top: 10px;
+}
